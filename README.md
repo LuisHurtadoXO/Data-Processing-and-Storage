@@ -29,5 +29,5 @@ All keys are strings and values are integers. You can call `get()` at any time, 
 ## Suggested Modifications for an Official Assignment:
 
 Clarifications in Instructions: Explicitly state that get() should never return uncommitted changes, and emphasize that only one transaction can exist at a time.<br >
-Additional Methods and Testing: Introduce helper methods and require students to write their own more complex unit tests. Provide a starter test suite to ensure basic correctness.<br >
+Additional Methods and Testing: Introduce helper methods like possibly 'hasKey(key)' and require students to write their own more complex unit tests. Provide a starter test suite to ensure basic correctness.<br >
 Grading Enhancements: Implement automated grading scripts that run a suite of tests (maybe both provided and hidden) to check that code is adequate. This encourages students to evaluate and follow best practices in testing.<br >
